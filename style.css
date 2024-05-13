@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg,black,#2f3d8e);
+}
+
+.caja {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cajaCubo {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: solid 1px #ffffff;
+    perspective: -1000px;
+    transform-style: preserve-3d;
+    background: #ffffff;
+}
+
+.control {
+    position: relative;
+    width: 30€;
+    height: 250px;
+    border: solid 1px #ffffff ;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    color: yellow;
+    margin: 5px;
+}
+
+input {
+    margin: 280px;
+}
+
+.uno, .dos, .tres, .cuatro {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: solid 1px #ffffff;
+    perspective: -1000px;
+    transform-style: preserve-3d;
+}
+
+.uno {
+    left: -125px;
+    transform: rotateY('90deg');
+    background: #ff6a9d;
+}
+
+.dos {
+    left: -125px;
+    transform: rotateY('90deg');
+    background: #55ffea;
+}
+
+.tres {
+    left: -125px;
+    transform: rotateY('90deg');
+    background: #154dff;
+}
+
+.cuatro {
+    left: -125px;
+    transform: rotateY('90deg');
+    background: #ff1515;
+}
